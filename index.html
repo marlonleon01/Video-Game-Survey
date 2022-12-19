@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, iniital scale=1.0" /> 
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1 id="title">Favorite Video Game
+    </h1>
+    <p id="description">Thank you for taking the time to answer these questions.
+    </p>
+
+  <form id="survey-form">
+  <div class="form-control">
+    <label for="name" id="name-label">Name</label>
+      <input id="name" type="text" placeholder="Enter your name" required />
+  </div>
+  <div class="form-control">
+    <label for="email" id="email-label">Email</label>
+      <input id="email" placeholder="Enter your email" type="email" required />
+  </div>
+  <div class="form-control">
+    <label for="number" id="number-label">Age</label>
+      <input id="number" min="8" max="120" placeholder="Enter your age" type="number" required />
+  </div>
+  
+  <div class="form-control">
+    <label for="dropdown">What's your favorite genre?</label>
+    <select id="dropdown">
+      <option value="">(select one)
+      </option>
+      <option value="1">First Person Shooter
+      </option>
+      <option value="2">Role Playing Game
+      </option>
+      <option value="3">Simulation
+      </option>
+      <option value="4">Story Mode
+      </option>
+      <option value="5">Fantasy
+      </option>
+      <option value="6">Other
+      </option>
+    </select>
+  
+  <div class="form-control">
+    <label>Which game series do you like the most?</label>
+    <label for="cod"> 
+      <input type="radio" name="most-like" id="cod" value="cod"/> Call of Duty</label>
+    <label for="witcher">
+      <input type="radio" name="most-like" id="witcher" value="witcher"/> Witcher Series</label>
+    <label for="gta">
+      <input type="radio" name="most-like" id="gta" value="gta"/> Grand Theft Auto</label>
+    <label for="mario">
+      <input type="radio" name="most-like" id="mario" value="mario"/> Super Mario Series</label>
+    <label for="other">
+      <input type="radio" name="most-like" id="other" value="other"/> Other</label>
+  </div>
+  
+  <div class="form-control">
+    <label>Which system do you play on?<small>(Check all that apply)</small></label>
+    <label for="xbox"><input type="checkbox" name="system" id="xbox" value="xbox"/> Xbox Series X</label>
+    <label for="playstation"><input type="checkbox" name="system" id="playstation" value="playstation"/> Playstation 5</label>
+    <label for="pc"><input type="checkbox" name="system" id="pc" value="pc"/> PC</label>
+    <label for="other-1"><input type="checkbox" name="system" id="other-1" value="other-1"> Other</label>
+  </div>
+
+  <div class="form-control">
+  <label for="comments">Any comments or suggestions?</label>
+  <textarea name="final-comments" id="comments"></textarea>
+  </div>
+  
+  <input id="submit" type="submit"/>
+</form>
+<footer>
+    <a href="https://www.vecteezy.com/free-vector/game-background" target="_blank" class="footer">Game Background Vectors by Vecteezy</a>
+</footer>
+</body>
+</html>
