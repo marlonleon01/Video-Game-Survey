@@ -14,7 +14,7 @@ h1 {
     text-align: center;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
-    background: url(../imgs/Video\ Game\ Survey\ Background.jpg) no-repeat center center fixed;
+    background: url(./img/Video\ Game\ Survey\ Background.jpg) no-repeat center center fixed;
     background-size: cover;
     color: white;
     overflow: hidden;
